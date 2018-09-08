@@ -1,0 +1,19 @@
+set shiftwidth=4
+set tabstop=8
+set syntax=on
+set smartindent
+
+"""""""""""""""""""""""""""""""""""""""""""""""
+" See https://github.com/junegunn/vim-plug
+"""""""""""""""""""""""""""""""""""""""""""""""
+if &compatible
+  set nocompatible               " Be iMproved
+endif
+
+
+" プラグインリスト開始
+call plug#begin('~/.vim/plugged')
+
+" プラグインリスト修了
+call plug#end()
+
